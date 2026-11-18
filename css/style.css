@@ -262,3 +262,6 @@ a {
         font-size: 28px;
     }
 }
+body {
+    background-color: red !important;
+}
