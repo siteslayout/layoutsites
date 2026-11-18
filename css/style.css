@@ -172,8 +172,17 @@ a {
 /* HERO VISUAL */
 
 .hero-visual {
-    position: relative;
-    padding: 20px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
 }
 
 .visual-card {
