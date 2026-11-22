@@ -952,3 +952,137 @@ a {
     }
 
 }
+
+/* =====================================
+   LAYOUTSITES - TEMPLATE SHOP
+===================================== */
+
+.templates-section {
+    background: #FFFFFF;
+}
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.template-card {
+    border: 1px solid #E2E8F0;
+    border-radius: 13px;
+    overflow: hidden;
+    background: #FFFFFF;
+    transition: 0.25s;
+}
+
+.template-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(23, 37, 84, 0.09);
+}
+
+.template-preview {
+    min-height: 235px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.template-business {
+    background: #EAF0FF;
+    color: #172554;
+}
+
+.template-creative {
+    background: #172554;
+    color: #FFFFFF;
+}
+
+.template-hospitality {
+    background: #EFF6FF;
+    color: #172554;
+}
+
+.template-preview > span {
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #2563EB;
+    margin-bottom: 16px;
+}
+
+.template-creative > span {
+    color: #93C5FD;
+}
+
+.template-preview strong {
+    font-size: 29px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.template-preview-button {
+    margin-top: 22px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #2563EB;
+}
+
+.template-creative .template-preview-button {
+    color: #BFDBFE;
+}
+
+.template-info {
+    padding: 22px;
+}
+
+.template-info h3 {
+    color: #172554;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.template-info p {
+    color: #64748B;
+    font-size: 12px;
+    min-height: 42px;
+    margin-bottom: 16px;
+}
+
+.template-status {
+    display: inline-block;
+    background: #EFF6FF;
+    color: #2563EB;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.templates-bottom {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.templates-bottom p {
+    color: #64748B;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .template-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .template-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .template-preview {
+        min-height: 220px;
+    }
+}
