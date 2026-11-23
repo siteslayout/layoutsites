@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Templates | LayoutSites</title>
+    <meta name="description" content="Explore professionally designed website templates for businesses, restaurants, portfolios, real estate and more.">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .shop-hero {
+            background: #172554;
+            color: #fff;
+            padding: 90px 8%;
+            text-align: center;
+        }
+        .shop-hero .eyebrow {
+            color: #93C5FD;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .shop-hero h1 {
+            max-width: 800px;
+            margin: 18px auto;
+            font-size: clamp(36px, 5vw, 58px);
+            line-height: 1.12;
+        }
+        .shop-hero p {
+            max-width: 620px;
+            margin: 0 auto;
+            color: #CBD5E1;
+            line-height: 1.8;
+        }
+        .shop-section {
+            padding: 65px 8%;
+            background: #F8FAFC;
+        }
+        .shop-heading {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        .shop-heading h2 {
+            color: #172554;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .shop-heading p {
+            color: #64748B;
+        }
+        .category-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 38px;
+        }
+        .category-list a {
+            text-decoration: none;
+            color: #172554;
+            background: #fff;
+            border: 1px solid #E2E8F0;
+            padding: 11px 18px;
+            border-radius: 30px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .category-list a:hover {
+            background: #2563EB;
+            color: #fff;
+        }
+        .shop-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .shop-card {
+            background: #fff;
+            border: 1px solid #E2E8F0;
+            border-radius: 14px;
+            overflow: hidden;
+        }
+        .shop-preview {
+            min-height: 205px;
+            padding: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .shop-preview small {
+            color: #2563EB;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            margin-bottom: 15px;
+        }
+        .shop-preview strong {
+            font-size: 28px;
+            line-height: 1.2;
+            color: #172554;
+        }
+        .preview-one { background: #EAF0FF; }
+        .preview-two { background: #172554; }
+        .preview-two strong { color: #fff; }
+        .preview-two small { color: #93C5FD; }
+        .preview-three { background: #FCEFE8; }
+        .preview-four { background: #E8F5F0; }
+        .preview-five { background: #F1EDFF; }
+        .preview-six { background: #EAF4FA; }
+        .shop-card-info {
+            padding: 22px;
+        }
+        .shop-card-info h3 {
+            color: #172554;
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+        .shop-card-info p {
+            color: #64748B;
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .coming-soon {
+            display: inline-block;
+            color: #2563EB;
+            background: #EFF6FF;
+            padding: 7px 11px;
+            border-radius: 5px;
+            font-size: 10px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        .shop-note {
+            text-align: center;
+            padding: 55px 8%;
+            background: #fff;
+        }
+        .shop-note h2 {
+            color: #172554;
+            margin-bottom: 12px;
+        }
+        .shop-note p {
+            color: #64748B;
+            margin-bottom: 22px;
+        }
+        .shop-note a {
+            display: inline-block;
+            background: #2563EB;
+            color: #fff;
+            text-decoration: none;
+            padding: 13px 24px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        @media (max-width: 800px) {
+            .shop-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 550px) {
+            .shop-grid { grid-template-columns: 1fr; }
+            .shop-hero { padding: 65px 6%; }
+            .shop-section { padding: 48px 6%; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <a href="index.html" class="logo">LS <span>LayoutSites</span></a>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="templates.html">Templates</a>
+            <a href="index.html#services">Custom Websites</a>
+            <a href="index.html#portfolio">Portfolio</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact" class="nav-button">Let's Talk</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="shop-hero">
+        <span class="eyebrow">The LayoutSites Template Shop</span>
+        <h1>Find the perfect design for your next website.</h1>
+        <p>Explore professionally designed website templates for businesses, creators and growing brands. Choose a design that fits your vision.</p>
+    </section>
+
+    <section class="shop-section">
+        <div class="shop-heading">
+            <h2>Explore Template Categories</h2>
+            <p>Discover designs created for different industries and ideas.</p>
+        </div>
+
+        <div class="category-list">
+            <a href="#business">Business</a>
+            <a href="#restaurant">Restaurants</a>
+            <a href="#portfolio">Portfolios</a>
+            <a href="#beauty">Beauty & Fashion</a>
+            <a href="#realestate">Real Estate</a>
+            <a href="#online">Online Stores</a>
+        </div>
+
+        <div class="shop-grid">
+            <article class="shop-card" id="business">
+                <div class="shop-preview preview-one">
+                    <small>BUSINESS TEMPLATE</small>
+                    <strong>Build Your<br>Business Online.</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Business & Corporate</h3>
+                    <p>Professional layouts for companies, agencies and service providers.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+
+            <article class="shop-card" id="portfolio">
+                <div class="shop-preview preview-two">
+                    <small>PORTFOLIO TEMPLATE</small>
+                    <strong>Make Your<br>Work Stand Out.</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Portfolio & Personal</h3>
+                    <p>Showcase your skills, projects and personal brand with style.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+
+            <article class="shop-card" id="restaurant">
+                <div class="shop-preview preview-three">
+                    <small>HOSPITALITY TEMPLATE</small>
+                    <strong>A Taste of<br>Something Special.</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Restaurants & Hospitality</h3>
+                    <p>Beautiful website designs for restaurants, cafes and hotels.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+
+            <article class="shop-card" id="beauty">
+                <div class="shop-preview preview-four">
+                    <small>BEAUTY TEMPLATE</small>
+                    <strong>Beauty in<br>Every Detail.</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Beauty & Fashion</h3>
+                    <p>Elegant designs for salons, spas, boutiques and fashion brands.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+
+            <article class="shop-card" id="realestate">
+                <div class="shop-preview preview-five">
+                    <small>REAL ESTATE TEMPLATE</small>
+                    <strong>Spaces That<br>Inspire.</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Real Estate & Construction</h3>
+                    <p>Present properties, projects and building services professionally.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+
+            <article class="shop-card" id="online">
+                <div class="shop-preview preview-six">
+                    <small>ECOMMERCE TEMPLATE</small>
+                    <strong>Ready to<br>Sell Online?</strong>
+                </div>
+                <div class="shop-card-info">
+                    <h3>Online Stores</h3>
+                    <p>Modern layouts for product catalogues and online shops.</p>
+                    <span class="coming-soon">COMING SOON</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="shop-note">
+        <h2>Need something made just for you?</h2>
+        <p>Our team can design and build a custom website around your business goals.</p>
+        <a href="index.html#contact">Discuss Your Website</a>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© 2026 LayoutSites. Custom Websites. Ready-Made Templates. Digital Growth.</p>
+</footer>
+
+</body>
+</html>
