@@ -93,7 +93,7 @@ a {
 
 .main-nav a {
     color: var(--muted);
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     transition: color 0.2s;
 }
