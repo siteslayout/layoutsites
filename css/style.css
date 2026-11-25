@@ -1095,3 +1095,6 @@ a {
         min-height: 220px;
     }
 }
+.template-info h3 {
+    font-size: 20px;
+}
