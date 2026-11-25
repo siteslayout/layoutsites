@@ -170,6 +170,15 @@ a {
     display: inline-block;
     margin-bottom: 19px;
 }
+.templates-section .eyebrow {
+    font-size: 15px;
+}
+
+.portfolio-section .eyebrow {
+    font-size: 15px;
+}
+.services-section .eyebrow {
+    font-size: 15px;
 
 .hero h1 {
     color: var(--navy);
