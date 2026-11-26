@@ -81,13 +81,21 @@ a {
 .footer-links a:hover {
   color: #A47B5E;
 }
-
 .nav-cta {
+  background: var(--chocolate);
+  color: var(--white);
   border: 1px solid var(--chocolate);
   padding: 11px 19px;
   font-size: 14px;
   font-weight: 600;
+  transition: 0.25s;
 }
+
+.nav-cta:hover {
+  background: #655143;
+  border-color: #655143;
+}
+
 
 .nav-cta span {
   margin-left: 8px;
