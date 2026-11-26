@@ -528,13 +528,13 @@ a {
 .gallery-section {
   background: var(--cream);
 }
-
 .gallery-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr 0.8fr;
   grid-template-rows: 220px 220px;
   gap: 18px;
 }
+
 
 .gallery-item {
   background-size: cover;
@@ -568,6 +568,11 @@ a {
 
 .gallery-four {
   background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800");
+}
+.gallery-five {
+  background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000");
+  background-position: center;
+  background-size: cover;
 }
 
 /* QUOTE */
