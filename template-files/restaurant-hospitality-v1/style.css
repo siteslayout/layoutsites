@@ -570,11 +570,12 @@ a {
   background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800");
 }
 .gallery-five {
-  background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000");
+  background-image: url("https://images.pexels.com/photos/32795634/pexels-photo-32795634/free-photo-of-elegant-restaurant-table-setting-with-candlelight.jpeg?auto=compress&dpr=1&h=750&w=1260");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* QUOTE */
 
 .quote-section {
