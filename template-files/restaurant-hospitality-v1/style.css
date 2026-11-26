@@ -395,10 +395,12 @@ a {
 .menu-image-one {
   background-image: url("https://images.unsplash.com/photo-1547592180-85f173990554?w=800");
 }
-.menu-image-two {
-  background-image: url("https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800");
-}
 
+.menu-image-two {
+  background-image: url("https://images.unsplash.com/photo-1759108834334-0d843f33cf0b?auto=format&fit=crop&w=1000&q=85");
+  background-size: cover;
+  background-position: center;
+}
 
 .menu-image-three {
   background-image: url("https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800");
