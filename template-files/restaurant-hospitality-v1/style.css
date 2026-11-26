@@ -551,11 +551,11 @@ a {
   font-weight: 700;
   letter-spacing: 1px;
 }
-
 .gallery-one {
   grid-row: span 2;
-  background-image: url("https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?w=900");
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200");
 }
+
 
 .gallery-two {
   background-image: url("https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800");
