@@ -755,6 +755,9 @@ a {
   .hero-image-wrap {
     padding-left: 12px;
   }
+  .image-caption {
+  left: 12px;
+}
 
   .hero-image {
     min-height: 360px;
