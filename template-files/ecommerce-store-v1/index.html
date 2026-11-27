@@ -1,0 +1,471 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover thoughtfully selected fashion, accessories and lifestyle essentials at MORROW.">
+  <title>MORROW | Modern Lifestyle Store</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    Complimentary shipping on orders over $100
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <a href="#home" class="logo">MORROW<span>.</span></a>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Collections</a>
+        <a href="#about">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-toggle" aria-label="Go to product search">Search</button>
+        <button class="bag-button" aria-label="Shopping bag">
+          Bag <span class="bag-count">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+
+      <div class="container hero-content">
+        <span class="eyebrow">THE EVERYDAY EDIT</span>
+
+        <h1>Live well.<br><em>Choose better.</em></h1>
+
+        <p>
+          A considered collection of everyday essentials,
+          timeless finds and little things worth keeping.
+        </p>
+
+        <a href="#shop" class="button button-primary">Explore the Collection</a>
+      </div>
+
+      <div class="hero-caption">THOUGHTFULLY CHOSEN · MADE FOR EVERYDAY</div>
+    </section>
+
+    <!-- INTRO STRIP -->
+    <section class="intro-strip">
+      <div class="container intro-strip-inner">
+        <span>CONSIDERED DESIGN</span>
+        <span class="strip-dot">✳</span>
+        <span>EVERYDAY ESSENTIALS</span>
+        <span class="strip-dot">✳</span>
+        <span>MODERN LIVING</span>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="categories-section" id="categories">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">EXPLORE OUR WORLD</span>
+            <h2>Shop by <em>category.</em></h2>
+          </div>
+
+          <p>Find your next favourite among our curated collections.</p>
+        </div>
+
+        <div class="category-grid">
+
+          <a href="#shop" class="category-card" data-category="fashion">
+            <div class="category-image category-fashion"></div>
+            <div class="category-info">
+              <h3>Fashion</h3>
+              <span>Explore collection ↗</span>
+            </div>
+          </a>
+
+          <a href="#shop" class="category-card" data-category="accessories">
+            <div class="category-image category-accessories"></div>
+            <div class="category-info">
+              <h3>Accessories</h3>
+              <span>Explore collection ↗</span>
+            </div>
+          </a>
+
+          <a href="#shop" class="category-card" data-category="lifestyle">
+            <div class="category-image category-lifestyle"></div>
+            <div class="category-info">
+              <h3>Lifestyle</h3>
+              <span>Explore collection ↗</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="shop-section" id="shop">
+      <div class="container">
+
+        <div class="section-heading shop-heading">
+          <div>
+            <span class="eyebrow">THE MORROW SELECTION</span>
+            <h2>Made to be <em>loved.</em></h2>
+          </div>
+
+          <p>Thoughtful pieces for the way you live today.</p>
+        </div>
+
+        <!-- FILTERS -->
+        <div class="shop-toolbar">
+          <div class="filter-buttons">
+            <button class="filter-button active" data-filter="all">All Products</button>
+            <button class="filter-button" data-filter="fashion">Fashion</button>
+            <button class="filter-button" data-filter="accessories">Accessories</button>
+            <button class="filter-button" data-filter="lifestyle">Lifestyle</button>
+          </div>
+
+          <div class="product-search">
+            <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+          </div>
+        </div>
+
+        <!-- PRODUCT GRID -->
+        <div class="product-grid">
+
+          <article class="product-card" data-category="fashion" data-name="Everyday Linen Shirt">
+            <div class="product-image product-one">
+              <span class="product-badge">BESTSELLER</span>
+              <button class="quick-add" data-product="Everyday Linen Shirt" aria-label="Add Everyday Linen Shirt to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">FASHION</span>
+              <h3>Everyday Linen Shirt</h3>
+              <div class="product-price">$68.00</div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories" data-name="Classic Leather Bag">
+            <div class="product-image product-two">
+              <span class="product-badge">NEW</span>
+              <button class="quick-add" data-product="Classic Leather Bag" aria-label="Add Classic Leather Bag to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">ACCESSORIES</span>
+              <h3>Classic Leather Bag</h3>
+              <div class="product-price">$120.00</div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="lifestyle" data-name="Sculptural Ceramic Vase">
+            <div class="product-image product-three">
+              <button class="quick-add" data-product="Sculptural Ceramic Vase" aria-label="Add Sculptural Ceramic Vase to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">LIFESTYLE</span>
+              <h3>Sculptural Ceramic Vase</h3>
+              <div class="product-price">$45.00</div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="fashion" data-name="Relaxed Cotton Set">
+            <div class="product-image product-four">
+              <span class="product-badge">POPULAR</span>
+              <button class="quick-add" data-product="Relaxed Cotton Set" aria-label="Add Relaxed Cotton Set to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">FASHION</span>
+              <h3>Relaxed Cotton Set</h3>
+              <div class="product-price">$89.00</div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="accessories" data-name="Everyday Sunglasses">
+            <div class="product-image product-five">
+              <button class="quick-add" data-product="Everyday Sunglasses" aria-label="Add Everyday Sunglasses to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">ACCESSORIES</span>
+              <h3>Everyday Sunglasses</h3>
+              <div class="product-price">$55.00</div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="lifestyle" data-name="Essential Home Candle">
+            <div class="product-image product-six">
+              <span class="product-badge">SALE</span>
+              <button class="quick-add" data-product="Essential Home Candle" aria-label="Add Essential Home Candle to bag">+</button>
+            </div>
+            <div class="product-info">
+              <span class="product-category">LIFESTYLE</span>
+              <h3>Essential Home Candle</h3>
+              <div class="product-price">
+                $32.00 <del>$40.00</del>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="product-message" id="productMessage" aria-live="polite"></p>
+
+        <div class="shop-bottom">
+          <a href="#contact" class="button button-outline">Discover More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EDITORIAL FEATURE -->
+    <section class="editorial-section">
+      <div class="editorial-image"></div>
+
+      <div class="editorial-content">
+        <span class="eyebrow">A LITTLE MORE INTENTION</span>
+        <h2>Less, but<br><em>better.</em></h2>
+        <p>
+          We believe in choosing pieces that feel right,
+          work beautifully and stay with you beyond a season.
+        </p>
+        <a href="#about" class="button button-light">Discover MORROW</a>
+      </div>
+    </section>
+
+    <!-- BRAND STORY -->
+    <section class="about-section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-label">
+          <span class="eyebrow">THE MORROW PHILOSOPHY</span>
+          <div class="about-image"></div>
+          <span class="about-caption">A MORE CONSIDERED EVERYDAY</span>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow">A NOTE FROM US</span>
+          <h2>Good things.<br><em>Thoughtfully chosen.</em></h2>
+
+          <p>
+            MORROW is built around a simple idea:
+            everyday shopping can feel more personal.
+          </p>
+
+          <p>
+            From useful essentials to special little discoveries,
+            we bring together pieces that celebrate thoughtful design,
+            quality and modern living.
+          </p>
+
+          <a href="#contact" class="text-link">Get to know MORROW <span>↗</span></a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <div class="container newsletter-content">
+        <span class="eyebrow">A GOOD THING IN YOUR INBOX</span>
+        <h2>Stay in the <em>know.</em></h2>
+        <p>New arrivals, thoughtful finds and occasional notes from MORROW.</p>
+
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" aria-label="Your email address" required>
+          <button type="submit">Join Us ↗</button>
+        </form>
+
+        <p class="newsletter-message" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div>
+          <span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+          <h2>Let's keep<br><em>in touch.</em></h2>
+        </div>
+
+        <div class="contact-details">
+          <p>Questions about an order or simply want to say hello?</p>
+          <a href="mailto:hello@example.com">hello@example.com</a>
+          <span>MONDAY – FRIDAY · 9 AM – 5 PM</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div class="footer-brand">
+        <a href="#home" class="logo">MORROW<span>.</span></a>
+        <p>Everyday essentials. A little more considered.</p>
+      </div>
+
+      <div class="footer-links">
+        <span>EXPLORE</span>
+        <a href="#shop">Shop All</a>
+        <a href="#categories">Collections</a>
+        <a href="#about">Our Story</a>
+      </div>
+
+      <div class="footer-links">
+        <span>INFORMATION</span>
+        <a href="#contact">Contact</a>
+        <a href="#contact">Shipping & Returns</a>
+        <a href="#contact">Privacy Policy</a>
+      </div>
+
+      <div class="footer-social">
+        <span>FOLLOW ALONG</span>
+        <a href="#contact">Instagram ↗</a>
+        <a href="#contact">Pinterest ↗</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 MORROW. All rights reserved.</p>
+      <p>THOUGHTFULLY CHOSEN · MADE FOR EVERYDAY</p>
+    </div>
+  </footer>
+
+  <!-- SHOPPING BAG DEMONSTRATION -->
+  <div class="bag-notice" id="bagNotice" role="status" aria-live="polite"></div>
+
+  <script>
+    // MOBILE NAVIGATION
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mainNav = document.querySelector(".main-nav");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNav.classList.toggle("active");
+      menuToggle.setAttribute("aria-expanded", isOpen);
+    });
+
+    document.querySelectorAll(".main-nav a").forEach(link => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // PRODUCT FILTERING AND SEARCH
+    const filterButtons = document.querySelectorAll(".filter-button");
+    const productCards = document.querySelectorAll(".product-card");
+    const productSearch = document.getElementById("productSearch");
+    const productMessage = document.getElementById("productMessage");
+
+    let activeFilter = "all";
+
+    function filterProducts() {
+      const searchTerm = productSearch.value.trim().toLowerCase();
+      let visibleCount = 0;
+
+      productCards.forEach(card => {
+        const category = card.dataset.category;
+        const name = card.dataset.name.toLowerCase();
+
+        const categoryMatch = activeFilter === "all" || category === activeFilter;
+        const searchMatch = name.includes(searchTerm);
+        const visible = categoryMatch && searchMatch;
+
+        card.style.display = visible ? "" : "none";
+
+        if (visible) visibleCount++;
+      });
+
+      productMessage.textContent =
+        visibleCount === 0 ? "No products found. Try another search." : "";
+    }
+
+    filterButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        filterButtons.forEach(item => item.classList.remove("active"));
+        button.classList.add("active");
+
+        activeFilter = button.dataset.filter;
+        filterProducts();
+      });
+    });
+
+    productSearch.addEventListener("input", filterProducts);
+
+    // CATEGORY SHORTCUTS
+    document.querySelectorAll(".category-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const category = card.dataset.category;
+
+        activeFilter = category;
+        productSearch.value = "";
+
+        filterButtons.forEach(button => {
+          button.classList.toggle("active", button.dataset.filter === category);
+        });
+
+        filterProducts();
+      });
+    });
+
+    // DEMONSTRATION SHOPPING BAG
+    let bagCount = 0;
+    const bagCountElement = document.querySelector(".bag-count");
+    const bagNotice = document.getElementById("bagNotice");
+
+    document.querySelectorAll(".quick-add").forEach(button => {
+      button.addEventListener("click", () => {
+        bagCount++;
+        bagCountElement.textContent = bagCount;
+
+        bagNotice.textContent = button.dataset.product + " added to your bag.";
+        bagNotice.classList.add("show");
+
+        setTimeout(() => {
+          bagNotice.classList.remove("show");
+        }, 2500);
+      });
+    });
+
+    // SEARCH SHORTCUT
+    document.querySelector(".search-toggle").addEventListener("click", () => {
+      document.getElementById("productSearch").focus();
+      document.getElementById("shop").scrollIntoView({ behavior: "smooth" });
+    });
+
+    // NEWSLETTER DEMONSTRATION
+    document.querySelector(".newsletter-form").addEventListener("submit", event => {
+      event.preventDefault();
+      document.querySelector(".newsletter-message").textContent =
+        "Thank you for joining MORROW! Connect a newsletter service to collect subscriptions.";
+      event.target.reset();
+    });
+  </script>
+
+</body>
+</html>
