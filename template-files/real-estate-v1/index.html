@@ -1,0 +1,437 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover exceptional homes and premium properties with The Address, your modern real estate partner.">
+  <title>THE ADDRESS | Modern Real Estate</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        THE <span>ADDRESS</span>
+        <small>REAL ESTATE & PROPERTY</small>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#properties" class="nav-cta">Explore Homes</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+
+      <div class="container hero-content">
+        <span class="eyebrow">A BETTER WAY TO FIND HOME</span>
+
+        <h1>Find a place<br>to <em>belong.</em></h1>
+
+        <p>
+          Exceptional properties. Thoughtful guidance.
+          A more personal approach to finding your next home.
+        </p>
+
+        <a href="#properties" class="button button-gold">Discover Properties</a>
+      </div>
+
+      <div class="hero-caption">CURATED HOMES · CONSIDERED LIVING</div>
+    </section>
+
+    <!-- PROPERTY SEARCH -->
+    <section class="search-section">
+      <div class="container">
+        <div class="search-heading">
+          <span class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</span>
+          <h2>Find your perfect place.</h2>
+        </div>
+
+        <form class="property-search" id="propertySearch">
+          <div class="search-field">
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="City or neighbourhood">
+          </div>
+
+          <div class="search-field">
+            <label for="propertyType">Property Type</label>
+            <select id="propertyType">
+              <option value="all">All properties</option>
+              <option value="house">House</option>
+              <option value="apartment">Apartment</option>
+              <option value="villa">Villa</option>
+            </select>
+          </div>
+
+          <div class="search-field">
+            <label for="priceRange">Price Range</label>
+            <select id="priceRange">
+              <option value="all">Any price</option>
+              <option value="500000">Under $500,000</option>
+              <option value="1000000">Under $1,000,000</option>
+              <option value="2000000">Under $2,000,000</option>
+            </select>
+          </div>
+
+          <button type="submit" class="button search-button">Search Homes</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro-section" id="about">
+      <div class="container intro-grid">
+        <div class="intro-label">
+          <span class="eyebrow">THE ADDRESS DIFFERENCE</span>
+          <span class="intro-number">01 / 04</span>
+        </div>
+
+        <div class="intro-content">
+          <h2>More than a property.<br><em>A place to call yours.</em></h2>
+
+          <p>
+            Finding the right property is about more than location and price.
+            It is about discovering a space that reflects your lifestyle,
+            your ambitions and the way you want to live.
+          </p>
+
+          <a href="#contact" class="text-link">Get to know us <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROPERTIES -->
+    <section class="properties-section" id="properties">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">SELECTED FOR YOU</span>
+            <h2>Featured <em>properties.</em></h2>
+          </div>
+
+          <a href="#contact" class="text-link">View all properties <span>↗</span></a>
+        </div>
+
+        <div class="property-grid">
+
+          <article class="property-card" data-type="villa" data-location="beverly hills" data-price="1850000">
+            <div class="property-image property-image-one">
+              <span class="property-tag">FEATURED</span>
+              <span class="property-status">FOR SALE</span>
+            </div>
+
+            <div class="property-details">
+              <div class="property-price">$1,850,000</div>
+              <h3>The Modern Residence</h3>
+              <p class="property-location">Beverly Hills, California</p>
+
+              <div class="property-meta">
+                <span>4 Beds</span>
+                <span>3 Baths</span>
+                <span>3,200 Sq Ft</span>
+              </div>
+
+              <a href="#contact" class="property-link">View Property <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="property-card" data-type="apartment" data-location="new york" data-price="875000">
+            <div class="property-image property-image-two">
+              <span class="property-tag">NEW LISTING</span>
+              <span class="property-status">FOR SALE</span>
+            </div>
+
+            <div class="property-details">
+              <div class="property-price">$875,000</div>
+              <h3>The Skyline Apartment</h3>
+              <p class="property-location">Manhattan, New York</p>
+
+              <div class="property-meta">
+                <span>2 Beds</span>
+                <span>2 Baths</span>
+                <span>1,450 Sq Ft</span>
+              </div>
+
+              <a href="#contact" class="property-link">View Property <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="property-card" data-type="house" data-location="austin" data-price="645000">
+            <div class="property-image property-image-three">
+              <span class="property-tag">EXCLUSIVE</span>
+              <span class="property-status">FOR SALE</span>
+            </div>
+
+            <div class="property-details">
+              <div class="property-price">$645,000</div>
+              <h3>The Garden House</h3>
+              <p class="property-location">Austin, Texas</p>
+
+              <div class="property-meta">
+                <span>3 Beds</span>
+                <span>2 Baths</span>
+                <span>2,100 Sq Ft</span>
+              </div>
+
+              <a href="#contact" class="property-link">View Property <span>↗</span></a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="search-message" id="searchMessage" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- FULL WIDTH FEATURE -->
+    <section class="feature-section">
+      <div class="feature-image"></div>
+
+      <div class="container feature-content">
+        <span class="eyebrow">THE ART OF LIVING WELL</span>
+        <h2>Spaces that inspire.<br>Places that feel like home.</h2>
+        <a href="#contact" class="button button-light">Start Your Search</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-heading services-heading">
+          <div>
+            <span class="eyebrow">HOW WE HELP</span>
+            <h2>Here for every <em>move.</em></h2>
+          </div>
+
+          <p>
+            Personal attention and experienced guidance,
+            wherever your property journey takes you.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-item">
+            <span class="service-number">01</span>
+            <h3>Buy a Property</h3>
+            <p>Discover the right property with guidance at every step of your search.</p>
+            <a href="#contact" class="text-link">Explore buying <span>↗</span></a>
+          </article>
+
+          <article class="service-item">
+            <span class="service-number">02</span>
+            <h3>Sell Your Property</h3>
+            <p>Present your property with care and connect with the right buyers.</p>
+            <a href="#contact" class="text-link">Explore selling <span>↗</span></a>
+          </article>
+
+          <article class="service-item">
+            <span class="service-number">03</span>
+            <h3>Property Advisory</h3>
+            <p>Make informed property decisions with thoughtful, personal advice.</p>
+            <a href="#contact" class="text-link">Discover more <span>↗</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / PHILOSOPHY -->
+    <section class="philosophy-section">
+      <div class="container philosophy-grid">
+        <div class="philosophy-image"></div>
+
+        <div class="philosophy-content">
+          <span class="eyebrow">OUR PHILOSOPHY</span>
+          <h2>Good property decisions begin with <em>good people.</em></h2>
+
+          <p>
+            We believe the best real estate experience begins with listening.
+            Understanding what matters to you helps us make the journey
+            clearer, more considered and more rewarding.
+          </p>
+
+          <a href="#contact" class="button button-dark">Meet Your Property Partner</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial-section">
+      <div class="container testimonial-content">
+        <span class="eyebrow">A PERSONAL APPROACH</span>
+        <div class="quote-mark">“</div>
+
+        <blockquote>
+          The right home is not simply found.
+          It is discovered through understanding what matters most.
+        </blockquote>
+
+        <span class="testimonial-author">THE ADDRESS EXPERIENCE</span>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content">
+          <span class="eyebrow">LET'S FIND YOUR PLACE</span>
+          <h2>Your next move<br>starts <em>here.</em></h2>
+
+          <p>
+            Tell us what you are looking for.
+            We'd love to help you take the next step.
+          </p>
+
+          <div class="contact-details">
+            <span>EMAIL</span>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <span>PHONE</span>
+            <a href="tel:+10000000000">+1 000 000 0000</a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Full name" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Your email address" required>
+
+          <label for="interest">I'm interested in</label>
+          <select id="interest">
+            <option>Buying a property</option>
+            <option>Selling a property</option>
+            <option>Property advisory</option>
+            <option>General enquiry</option>
+          </select>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" rows="4" placeholder="Tell us a little about what you need..."></textarea>
+
+          <button type="submit" class="button button-gold">Send Enquiry</button>
+          <p class="form-note">This is a template contact form. Connect it to your preferred form service before launch.</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a href="#home" class="logo">
+          THE <span>ADDRESS</span>
+          <small>REAL ESTATE & PROPERTY</small>
+        </a>
+        <p>Thoughtful property. Considered living.</p>
+      </div>
+
+      <div class="footer-links">
+        <span>EXPLORE</span>
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+      </div>
+
+      <div class="footer-links">
+        <span>GET IN TOUCH</span>
+        <a href="#contact">Contact</a>
+        <a href="mailto:hello@example.com">Email Us</a>
+        <a href="#contact">Book a Consultation</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 THE ADDRESS. All rights reserved.</p>
+      <p>REAL ESTATE · PROPERTY · LIFESTYLE</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mainNav = document.querySelector(".main-nav");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNav.classList.toggle("active");
+      menuToggle.setAttribute("aria-expanded", isOpen);
+    });
+
+    document.querySelectorAll(".main-nav a").forEach(link => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("active");
+        menuToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Property search
+    const propertySearch = document.getElementById("propertySearch");
+    const propertyCards = document.querySelectorAll(".property-card");
+    const searchMessage = document.getElementById("searchMessage");
+
+    propertySearch.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const location = document.getElementById("location").value.trim().toLowerCase();
+      const type = document.getElementById("propertyType").value;
+      const price = document.getElementById("priceRange").value;
+
+      let matches = 0;
+
+      propertyCards.forEach(card => {
+        const cardLocation = card.dataset.location;
+        const cardType = card.dataset.type;
+        const cardPrice = Number(card.dataset.price);
+
+        const locationMatch = !location || cardLocation.includes(location);
+        const typeMatch = type === "all" || cardType === type;
+        const priceMatch = price === "all" || cardPrice <= Number(price);
+
+        const show = locationMatch && typeMatch && priceMatch;
+
+        card.style.display = show ? "" : "none";
+
+        if (show) matches++;
+      });
+
+      searchMessage.textContent = matches
+        ? `${matches} matching ${matches === 1 ? "property" : "properties"} found.`
+        : "No matching properties found. Try changing your search.";
+    });
+
+    // Template contact form demonstration
+    document.querySelector(".contact-form").addEventListener("submit", event => {
+      event.preventDefault();
+      alert("Thank you for your enquiry! Connect this form to a form service to receive messages.");
+    });
+  </script>
+
+</body>
+</html>
