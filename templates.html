@@ -543,12 +543,28 @@ body {
   color: #263247;
   font-size: 13px;
 }
+/* LIVE DEMO BUTTON */
 
 .shop-demo-link {
-  color: #2563EB;
-  font-weight: 700;
-  font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #172554;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.25s ease;
 }
+
+.shop-demo-link:hover {
+    background: #2563EB;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
 
 @media (max-width: 900px) {
   .template-shop-grid {
