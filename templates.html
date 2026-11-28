@@ -567,6 +567,205 @@ body {
   }
 }
 
+/* BOTTOM SECTIONS - CORRECT HTML CLASS NAMES */
+
+.shop-benefits {
+  background: #F5F0E6;
+  padding: 80px 30px;
+}
+
+.shop-benefits-inner {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 35px;
+  text-align: center;
+}
+
+.shop-benefit {
+  padding: 20px;
+}
+
+.shop-benefit-icon {
+  color: #2563EB;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.shop-benefit h3 {
+  color: #172554;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.shop-benefit p {
+  color: #64748B;
+  font-size: 15px;
+}
+
+/* CUSTOM WEBSITE CTA */
+
+.shop-custom-cta {
+  background: #172554;
+  padding: 85px 25px;
+  text-align: center;
+}
+
+.shop-custom-cta > span {
+  color: #93C5FD;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.shop-custom-cta h2 {
+  max-width: 750px;
+  margin: 18px auto;
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.shop-custom-cta p {
+  max-width: 650px;
+  margin: 0 auto;
+  color: #DBEAFE;
+  font-size: 16px;
+}
+
+.shop-custom-cta a {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 14px 26px;
+  background: #2563EB;
+  color: #FFFFFF;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+/* FOOTER */
+
+.site-footer {
+  background: #0F1B3D;
+  color: #FFFFFF;
+  padding: 60px 30px 25px;
+}
+
+.footer-main {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-items: start;
+  gap: 35px;
+}
+
+.footer-brand .logo {
+  display: inline-block;
+  color: #FFFFFF !important;
+  font-size: 24px;
+}
+
+.footer-brand p {
+  max-width: 280px;
+  margin-top: 14px;
+  color: #CBD5E1;
+  font-size: 14px;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.footer-links span,
+.footer-social span {
+  margin-bottom: 5px;
+  color: #93C5FD;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.footer-links a,
+.footer-social a {
+  color: #E2E8F0;
+  font-size: 14px;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  color: #FFFFFF;
+}
+
+.footer-social a {
+  display: inline-block;
+  padding: 9px 16px;
+  background: #2563EB;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  max-width: 1160px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.18);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #CBD5E1;
+  font-size: 13px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* MOBILE BOTTOM SECTIONS */
+
+@media (max-width: 700px) {
+  .shop-benefits-inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .shop-custom-cta h2 {
+    font-size: 31px;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+/* LAYOUTSITES HEADER LOGO FIX */
+
+.site-header .logo {
+  display: inline-block;
+  color: #172554 !important;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-decoration: none;
+  visibility: visible;
+  opacity: 1;
+  white-space: nowrap;
+}
+
+.site-header .logo span {
+  color: #2563EB !important;
+}
     
   </style>
 </head>
